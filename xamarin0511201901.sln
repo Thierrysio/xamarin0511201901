@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin0511201901.Android", "xamarin0511201901\xamarin0511201901.Android\xamarin0511201901.Android.csproj", "{5257CE67-9132-4D0A-9F9D-884B68FA9D41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin0511201901", "xamarin0511201901\xamarin0511201901\xamarin0511201901.csproj", "{B031F696-360C-4005-8788-EBAB3A62EC0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5257CE67-9132-4D0A-9F9D-884B68FA9D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5257CE67-9132-4D0A-9F9D-884B68FA9D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5257CE67-9132-4D0A-9F9D-884B68FA9D41}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5257CE67-9132-4D0A-9F9D-884B68FA9D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5257CE67-9132-4D0A-9F9D-884B68FA9D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5257CE67-9132-4D0A-9F9D-884B68FA9D41}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B031F696-360C-4005-8788-EBAB3A62EC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B031F696-360C-4005-8788-EBAB3A62EC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B031F696-360C-4005-8788-EBAB3A62EC0B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B031F696-360C-4005-8788-EBAB3A62EC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B031F696-360C-4005-8788-EBAB3A62EC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B031F696-360C-4005-8788-EBAB3A62EC0B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0249053E-DA21-493E-9ED0-BA3A8AD8A150}
+	EndGlobalSection
+EndGlobal
