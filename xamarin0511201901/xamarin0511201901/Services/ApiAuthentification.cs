@@ -10,7 +10,7 @@ namespace xamarin0511201901.Services
 {
     class ApiAuthentification
     {
-        public async Task GetAuthAsync(string userName, string password)
+        public async Task<bool> GetAuthAsync(string userName, string password)
         {
             User modelData = new User(userName, password);
             var jsonstring = JsonConvert.SerializeObject(modelData);
@@ -21,6 +21,12 @@ namespace xamarin0511201901.Services
             var response = await client.PostAsync(Constantes.BaseApiAddress + "api/login_check", jsonContent);
 
             var content = await response.Content.ReadAsStringAsync();
+            if(content  == "Ok")
+            { return true; }
+            else
+            {
+                return false;
+            }
 
             //Tokens token = JsonConvert.DeserializeObject<Tokens>(content);
 

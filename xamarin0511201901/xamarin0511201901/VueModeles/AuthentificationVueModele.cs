@@ -70,7 +70,9 @@ namespace xamarin0511201901.VueModeles
 
             Task.Run(async () =>
             {
-                await _apiServices.GetAuthAsync("riri@disney.com", "hello");
+              if(  await _apiServices.GetAuthAsync("riri@disney.com", "hello"))
+                { }
+                else { }
 
             });
 
